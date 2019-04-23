@@ -19,7 +19,7 @@ a.readlatlon()
 
 for center in f:
     picname0 = os.path.join(PIC_FILE_0, f'{str(center[0]+1)}_{str(center[0]-1)}_{str(center[1]-1)}_{str(center[1]+1)}.png')
-    a.draw(center, picname0, PAD_DOT=-56, DPI=100)   #pic 1
+    a.draw(center, picname0, PAD_DOT=-56, DPI=100)
 
     picname1 = os.path.join(PIC_FILE_1, f'{str(center[0]+1)}_{str(center[0]-1)}_{str(center[1]-1)}_{str(center[1]+1)}.png')
     a.draw(center, picname1, PAD_DOT=-104.9, DPI=200)

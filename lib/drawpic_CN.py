@@ -43,11 +43,6 @@ class DrawConvectiveCloud(object):
         self.lon = np.array(lon).reshape(1920, 1080)
         self.lat = np.array(lat).reshape(1920, 1080)
 
-
-
-
-
-
     def draw(self, center, picname, PAD_DOT=0, DPI=0):
         fig = plt.figure(figsize=(40, 40), dpi=DPI)
         ax = fig.add_subplot(111)
