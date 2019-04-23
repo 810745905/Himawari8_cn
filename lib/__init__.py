@@ -1,0 +1,1 @@
+from lib import drawpic_CN
