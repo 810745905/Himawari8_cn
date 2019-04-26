@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="768e4cb9-bb21-4d6b-aea1-f5f96c3a4cca" name="192.168.50.1" url="http://192.168.50.1">
+        <fileTransfer host="192.168.50.1" port="22" privateKey="E:\360MoveData\Users\Administrator\Desktop\192.168.54.2\liaoyt50.pub" rootFolder="/home/liaoyt/project" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
